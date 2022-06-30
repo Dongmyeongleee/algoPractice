@@ -1,0 +1,40 @@
+def solution(lottos, win_nums):
+    answer = []
+    result1 = []  # 최대
+    result2 = []  # 최소  
+    result_zero = []  # 0의 갯수
+    for i in range(len(lottos)):
+        if lottos[i] in win_nums:
+            result1.append(lottos[i])
+            result2.append(lottos[i])
+        elif lottos[i] == 0:
+            result_zero.append(lottos[i])
+    
+    if len(result1) + len(result_zero) == 6:
+        answer.append(1)
+    elif len(result1) + len(result_zero) == 5:
+        answer.append(2)
+    elif len(result1) + len(result_zero) == 4:
+        answer.append(3)
+    elif len(result1) + len(result_zero) == 3:
+        answer.append(4)
+    elif len(result1) + len(result_zero) == 2:
+        answer.append(5)
+    else:
+        answer.append(6)
+        
+    if len(result2) == 6:
+        answer.append(1)
+    elif len(result2) == 5:
+        answer.append(2)
+    elif len(result2) == 4:
+        answer.append(3)
+    elif len(result2) == 3:
+        answer.append(4)
+    elif len(result2) == 2:
+        answer.append(5)
+    else:
+        answer.append(6)
+    
+    
+    return answer
