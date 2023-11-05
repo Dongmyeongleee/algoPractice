@@ -1,10 +1,10 @@
 # [level unrated] flag에 따라 다른 값 반환하기 - 181933 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181933?language=c) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181933?language=python3) 
 
 ### 성능 요약
 
-메모리: 4.15 MB, 시간: 0.01 ms
+메모리: 10.4 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 0일 19:28:19
+2023년 11월 0일 19:29:10
 
 ### 문제 설명
 
